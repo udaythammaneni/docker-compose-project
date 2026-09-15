@@ -35,7 +35,7 @@ async function start() {
       // const message = await redis.get("message");
 
       res.json({
-        message: "Docker Compose is working!",
+        message: "Docker Compose is working!- 5",
         // mysql: rows[0].currentTime,
         // redis: message
       });
