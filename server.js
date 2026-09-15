@@ -27,7 +27,7 @@ async function start() {
 
   app.get("/", async (req, res) => {
     try {
-      console.log("Ecommerce API started-4");
+      console.log("Ecommerce API started-5");
       // const [rows] = await db.query("SELECT NOW() AS currentTime");
 
       // await redis.set("message", "Hello from Redis!");
