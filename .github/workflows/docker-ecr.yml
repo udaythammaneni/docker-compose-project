@@ -82,6 +82,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: ecommerce-api
+          service: ecommerce-api-service-qwv7u4z1
           cluster: ecommerce-cluster
           wait-for-service-stability: true
