@@ -9,7 +9,7 @@
   "executionRoleArn": "arn:aws:iam::970208041188:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "ecommerce-api",
+      "name": "Main",
       "image": "PLACEHOLDER",
       "essential": true,
       "portMappings": [
