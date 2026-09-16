@@ -36,6 +36,8 @@ async function start() {
 
       res.json({
         message: "Docker Compose is working!- 6",
+        appSecret: process.env.APP_SECRET,
+        appSecretExists: !!process.env.APP_SECRET
         // mysql: rows[0].currentTime,
         // redis: message
       });
